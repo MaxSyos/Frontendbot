@@ -1,0 +1,32 @@
+module.exports = {
+
+    SYMBOL: "BCH-PERP",
+ 
+    
+    CRAWLER_INTERVAL : 30000,
+
+    BUY_PROFITY : 1.30,
+    BUY_STOP : 0.95,
+    SELL_PROFITY : 0.92,
+    SELL_STOP : 100.0,
+
+    BUY_PROFITY15 : 1.02,
+    SELL_PROFITY15 : 0.95,
+
+    BUY_PROFITY60 : 1.10,
+    SELL_PROFITY60 : 0.83,
+
+    BUY_PROFITYD : 1.05,
+    SELL_PROFITYD : 0.93,
+
+    
+    POSITION_SIZE: 2,
+    NUM_BUY_GRID_LINES: 5,
+    NUM_SELL_GRID_LINES: 5,
+    GRID_SIZE: 0.005,
+    CHECK_ORDERS_FREQUENCY: 10,
+    CLOSED_ORDER_STATUS: 'closed'
+
+    
+
+};

@@ -12,6 +12,7 @@ import {
 import { UilUsdSquare, UilMoneyWithdrawal } from "@iconscout/react-unicons";
 import { keyboard } from "@testing-library/user-event/dist/keyboard";
 
+
 // Recent Card Imports
 import img1 from "../imgs/img1.png";
 import img2 from "../imgs/img2.png";
@@ -60,7 +61,7 @@ export const cardsData = [
     ],
   },
   {
-    title: "Revenue",
+    title: "Rev",
     color: {
       backGround: "linear-gradient(180deg, #FF919D 0%, #FC929D 100%)",
       boxShadow: "0px 10px 20px 0px #FDC0C7",
@@ -76,7 +77,7 @@ export const cardsData = [
     ],
   },
   {
-    title: "Expenses",
+    title: "Exp",
     color: {
       backGround:
         "linear-gradient(rgb(248, 212, 154) -146.42%, rgb(255 202 113) -46.42%)",
@@ -85,6 +86,23 @@ export const cardsData = [
     barValue: 60,
     value: "4,270",
     png: UilClipboardAlt,
+    series: [
+      {
+        name: "Expenses",
+        data: [10, 25, 15, 30, 12, 15, 20],
+      },
+    ],
+  },
+  {
+    title: "Power",
+    color: {
+      backGround:
+        "linear-gradient(rgb(248, 212, 154) -146.42%, rgb(25 120 107) -46.42%)",
+      boxShadow: "0px 10px 20px 0px #F9D59B",
+    },
+    barValue: 60,
+    value: "4,270",
+    png: UilPackage,
     series: [
       {
         name: "Expenses",

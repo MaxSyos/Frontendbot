@@ -3,8 +3,8 @@
   flex: 1;
   height: 7rem !important;
   border-radius: 0.7rem;
-  color: white;
-  padding: 1rem;
+  color: #ffffff;
+  padding: 0.4rem;
   position: relative;
   cursor: pointer;
 }
